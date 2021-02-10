@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        .search {
+            margin: 23vh auto 0px;
+            width: 600px;
+            max-width: 100%;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+        }
+        #google {
+            width: 100%;
+            padding: 10px;
+            font-size: 17px;
+            max-width: 100%;
+        }
+        #google:hover {
+            box-shadow: 0px 0px 3px 0px gray;
+        }
+        .flex-container {
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: nowrap;
+        }
+        .flex-container2 {
+            display: flex;
+            justify-content: center;
+            margin: 30px auto;
+        }
+        .item1, .item1:active {
+            padding: 15px;
+            color:black;
+            text-decoration: none;
+        }
+        .item2 {
+            padding: 15px;
+            background-color: rgb(40, 132, 224);
+            border-radius: 10px;
+            text-decoration: none;
+            color: white;
+        }
+        .item3 {
+            padding: 10px;
+            margin: 5px;
+            background-color: rgb(241, 242, 248);
+            border: none;
+            min-width: 100px;
+        }
+        .item3:hover {
+            box-shadow: 0px 0px 3px 0px gray;
+        }
+    </style>
+    </head>
+    <body>
+        <header class="flex-container">
+            <a class="item1" href="https://www.google.com/intl/ro/gmail/about/">Gmail</a>
+            <a class="item1" href="https://www.google.md/imghp?hl=ro-MD&ogbl">Email</a>
+            <a class="item2" href="https://accounts.google.com/signin/v2/identifier?hl=ro-MD&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Connect</a>
+        </header>
+        <div class="search">
+        <a href="https://google.com/"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></a>
+        <form>
+            <label for="google"></label>
+            <input type="search" id="google" >
+            <div class="flex-container2">
+                <button class="item3" type="submit">Google Search</button>
+                <button class="item3" type="submit">I am lucky</button>
+            </div>
+        </form>
+        </div>
+        
+    </body>
+</html>
